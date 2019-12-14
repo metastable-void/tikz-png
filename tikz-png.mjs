@@ -8,8 +8,8 @@ const e_download = document.querySelector ('#download');
 e_input.addEventListener ('change', ev => void ((async ev => {
 	const text = e_input.value;
 	const front_matter = `
-<link rel="stylesheet" href="http://tikzjax.com/v1/fonts.css">
-<script src="http://tikzjax.com/v1/tikzjax.js"></script>
+<link rel="stylesheet" href="https://www.exec.su/tikz-png/v1/fonts.css">
+<script src="https://www.exec.su/tikz-png/v1/tikzjax.js"></script>
 <div></div>
 `;
 	
